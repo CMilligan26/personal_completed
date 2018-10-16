@@ -1,0 +1,57 @@
+/*Clean slate*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*Set main elements to the full size of the screen*/
+
+html,body,div {
+  height: 100vh; /*(percentage of view height, page height)*/
+  width: 100vw; /*(view width, page width)*/
+}
+
+/*Set background gradient*/
+
+html {
+  background: linear-gradient(180deg, rgba(252, 68, 240, 0.5), rgba(7, 233, 249, 0.5));
+}
+
+/*Set properties of the link*/
+
+h1 {
+  /*Set position near the middle of the screen*/
+  position: absolute;
+  top: 45%;
+  /*Set size*/
+  width: 100vw;
+  height: 10vh;
+  /*Align text*/
+  text-align: center;
+  /*Stop text wrapping*/
+  white-space: nowrap;
+  /*STYLE TEXT*/
+  font-family: "Orbitron", "Andale Mono", sans-serif;
+  font-size: 5vw;
+  color: white;
+  opacity: 1;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/*Prevent the link from changing color or being underlined*/
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: white;
+}
+/*Change the link on mouse hover*/
+a:hover {
+  opacity: 0.3;
+  color: fuchsia;
+}

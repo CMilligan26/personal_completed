@@ -1,0 +1,260 @@
+/*Clean slate*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*Set background gradient and set size of page*/
+
+html {
+  height: 1150px;
+  width: 1280px;
+  background: linear-gradient(180deg, rgba(252, 68, 240, 0.5), rgba(7, 233, 249, 0.5));
+  overflow: scroll;
+}
+
+/*Style links*/
+
+/*Prevent the links from changing color or being underlined*/
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: white;
+}
+
+/*Change the links on mouse hover*/
+a:hover {
+  opacity: 0.8;
+  color: fuchsia;
+}
+
+/*Set font properties*/
+
+.fontformat {
+  /*STYLE TEXT*/
+  font-family: "Orbitron", "Andale Mono", sans-serif;
+  opacity: 1;
+}
+
+/*Set title properties*/
+
+header h1 {
+  /*Set size*/
+  height: 130px;
+  width: 1280px;
+  display: block;
+  /*STYLE TEXT*/
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  white-space: nowrap;
+  color: white;
+  /*Set Color*/
+  background-color: black;
+  /*Padding*/
+  padding-top: 40px ;
+  padding-left: 255px;
+}
+
+/*Set to expand if the window is stretched*/
+
+@media screen and (min-width: 1281px) {
+  header h1 {
+    width: 100vw;
+  }
+}
+
+/*Set div elements*/
+div {
+  width: 1280px;
+}
+
+@media screen and (min-width: 1281px) {
+  div {
+    width: 100vw;
+  }
+}
+
+div img {
+  /*Set image size*/
+  height: 290px;
+  width: 255px;
+}
+
+/*Set subtitle properties*/
+div h1 {
+  /*Set size*/
+  width: 1280px;
+  /*STYLE TEXT*/
+  font-size: 25px;
+  line-height: 3em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  /*Position*/
+  position: absolute;
+  top: 145px;
+  padding-left: 255px;
+}
+
+/*Set to expand if the window is stretched*/
+
+@media screen and (min-width: 1281px) {
+  div h1 {
+    width: 100vw;
+  }
+}
+
+/*Set paragraph properties*/
+
+div p {
+  /*Set size*/
+  width: 1280px;
+  /*STYLE TEXT*/
+  font-size: 13px;
+  line-height: 3em;
+  text-align: center;
+  color: black;
+  /*Position*/
+  position: absolute;
+  top: 250px;
+  /*Padding*/
+  padding-left: 330px;
+  padding-right: 75px;
+}
+
+/*Set to expand if the window is stretched*/
+
+@media screen and (min-width: 1281px) {
+  div p {
+    width: 100vw;
+  }
+}
+
+/*Set album properties*/
+
+/*Set size of all*/
+
+div iframe.album {
+  border: 0;
+  width: 385px;
+  height: 385px;
+}
+
+/*Set individual postions*/
+
+.album1 {
+  /*Position*/
+  position: absolute;
+  top: 360px;
+  left: 370px;
+}
+
+.album2 {
+  /*Position*/
+  position: absolute;
+  top: 360px;
+  left: 780px;
+}
+
+.album3 {
+  /*Position*/
+  position: absolute;
+  top: 755px;
+  left: 370px;
+}
+
+.album4 {
+  /*Position*/
+  position: absolute;
+  top: 755px;
+  left: 780px;
+}
+
+/*Set to expand if the window is stretched*/
+
+@media screen and (min-width: 1281px) {
+  .album1{
+    position: absolute;
+    top:360px;
+    left:50%;
+    margin-left:-352px;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  .album2{
+    position: absolute;
+    top:360px;
+    left:50%;
+    margin-left:218px;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  .album3{
+    position: absolute;
+    top:755px;
+    left:50%;
+    margin-left:-352px;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  .album4{
+    position: absolute;
+    top:755px;
+    left:50%;
+    margin-left: 218px;
+  }
+}
+
+/*Set video properties*/
+
+.video {
+  /*Position*/
+  position: absolute;
+  top: 720px;
+  left: 472.5px;
+  width: 590px;
+  height: 360px;
+}
+
+/*Set to expand if the window is stretched*/
+
+@media screen and (min-width: 1281px) {
+  .video {
+    position: absolute;
+    top:720px;
+    left:50%;
+    margin-left:-165px;
+  }
+}
+
+/*Set menu properties*/
+
+div ul {
+  /*Set size*/
+  height: 730px;
+  width: 255px;
+  /*STYLE TEXT*/
+  font-size: 19px;
+  line-height: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  /*Position*/
+  position: absolute;
+  top: 420px;
+  /*Set Color*/
+  background-color: black;
+  /*Padding*/
+  padding-left: 30px;
+}
